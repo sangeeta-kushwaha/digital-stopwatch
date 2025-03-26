@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.body{
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    gap: 1rem;
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+h1{
+    font-size: 2.5rem;
+}
+button{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border: none;
+}
+
+#displaytime{
+    border: 2px solid rgb(65, 57, 57);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
